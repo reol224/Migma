@@ -31,4 +31,12 @@ export const addCart = async (dispatch, cart) => {
   }
 };
 
+export const deleteFromCart = async (dispatch, cart) => {
+  try {
+    const res = await publicRequest.post("/carts", cart);
+    //console.log(res);
+    dispatch(deleteFromCart(res.data));
+  } catch (err) {
+  }
+};
 
