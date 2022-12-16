@@ -8,6 +8,8 @@ import { publicRequest } from "../requestMethods";
 import { addProduct } from "../redux/cartRedux";
 import { useDispatch } from "react-redux";
 import { addCart } from "../redux/apiCalls";
+import Comments from "./comments/Comments";
+import "./comments/index.css";
 
 const Container = styled.div``;
 
@@ -189,8 +191,9 @@ const Product = () => {
         </InfoContainer>
 
       </Wrapper>
-
+      <Comments></Comments>          
     </Container>
+    
   );
 };
 

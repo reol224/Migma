@@ -4,6 +4,7 @@ import ProductList from "./pages/ProductList";
 import Register from "./pages/Register";
 import Login from "./pages/Login";
 import Cart from "./pages/Cart";
+import Comment from "./pages/comments/Comments"
 
 import {
   BrowserRouter as Router,
@@ -41,6 +42,9 @@ const App = () => {
           {user ? <Redirect to="/" /> : <Register />}
           {/* {user ? <Redirect to="/" /> : <Register />} */}
           {/* path=/logout */}
+        </Route>
+        <Route path="/comments">
+          <Comment/>
         </Route>
       </Switch>
     </Router>
