@@ -3,7 +3,7 @@
     "$oid": "639c0dbeb9577912b7b53104"
   }, 
   "title": "Jacket",
-  "desc": "qerq",
+  "desc": "A reaaally nice jacket",
   "img": "http://localhost:3000/image/2.jpeg",
   "categories": [
     "women"
@@ -14,7 +14,9 @@
     "L"
   ],
   "color": [
-    "yellow"
+    "yellow",
+    "gray",
+    "red"
   ],
   "price": 230,
   "inStock": true,
@@ -46,7 +48,8 @@
   ],
   "color": [
     "black",
-    "gray"
+    "gray",
+    "red"
   ],
   "price": 230,
   "inStock": true,
@@ -79,7 +82,8 @@
   "color": [
     "black",
     "white",
-    "gray"
+    "gray",
+    "blue"
   ],
   "price": 15,
   "inStock": true,
@@ -112,7 +116,8 @@
   "color": [
     "black",
     "gray",
-    "blue"
+    "blue",
+    "red"
   ],
   "price": 19,
   "inStock": true,
@@ -145,7 +150,8 @@
   "color": [
     "black",
     "gray",
-    "blue"
+    "blue",
+    "red"
   ],
   "price": 17,
   "inStock": true,
@@ -178,7 +184,8 @@
   "color": [
     "black",
     "gray",
-    "red"
+    "red",
+    "blue"
   ],
   "price": 199,
   "inStock": true,
