@@ -23,12 +23,11 @@ export const register = async (dispatch, user) => {
 };
 
 export const addCart = async (dispatch, cart) => {
-  dispatch(cartStart());
   try {
     const res = await publicRequest.post("/carts", cart);
+    //console.log(res);
     dispatch(addProduct(res.data));
   } catch (err) {
-    dispatch(cartFailure());
   }
 };
 
