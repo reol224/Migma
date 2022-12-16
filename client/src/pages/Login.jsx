@@ -51,10 +51,6 @@ const Button = styled.button`
   color: white;
   cursor: pointer;
   margin-bottom: 10px;
-  &:disabled {
-    color: green;
-    cursor: not-allowed;
-  }
 `;
 
 const Link = styled.a`
@@ -97,7 +93,7 @@ const Login = () => {
           </Button>
           {error && <Error>Something went wrong...</Error>}
           <Link>DO NOT YOU REMEMBER THE PASSWORD?</Link>
-          <Link to="/register">CREATE A NEW ACCOUNT</Link>
+          <Link to="register">CREATE A NEW ACCOUNT</Link>
         </Form>
       </Wrapper>
     </Container>
