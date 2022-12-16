@@ -2,7 +2,7 @@ import { useDispatch } from "react-redux";
 import { useState } from "react";
 import styled from "styled-components";
 import { mobile } from "../responsive";
-import { register } from "../redux/apiCall";;
+import { register } from "../redux/apiCalls";;
 
 
 const Container = styled.div`
