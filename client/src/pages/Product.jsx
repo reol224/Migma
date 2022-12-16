@@ -7,6 +7,7 @@ import { useEffect, useState } from "react";
 import { publicRequest } from "../requestMethods";
 import { addProduct } from "../redux/cartRedux";
 import { useDispatch } from "react-redux";
+import { addCart } from "../redux/apiCalls";
 
 const Container = styled.div``;
 
@@ -145,12 +146,11 @@ const Product = () => {
       setQuantity(quantity + 1);
     }
   };
-  // Submit
+  // Add Cart when the user click Add cart
   const handleClick = () => {
-    dispatch(
-      addProduct({ ...product, quantity, color, size })
-    );
+    addCart( dispatch, { ...product, quantity, color, size });
   };
+
   return (
     <Container>
       <Navbar />
@@ -187,7 +187,7 @@ const Product = () => {
             <Button onClick={handleClick}>ADD TO CART</Button>
           </AddContainer>
         </InfoContainer>
-        
+
       </Wrapper>
 
     </Container>
