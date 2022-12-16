@@ -1,7 +1,7 @@
 [{
   "_id": {
     "$oid": "639c0dbeb9577912b7b53104"
-  },
+  }, 
   "title": "Jacket",
   "desc": "qerq",
   "img": "http://localhost:3000/image/2.jpeg",

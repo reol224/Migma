@@ -191,6 +191,14 @@ const Product = () => {
             </AmountContainer>
             <Button onClick={handleClick}>ADD TO CART</Button>
           </AddContainer>
+
+          {/* add comments */}
+          <AddContainer>
+            <AmountContainer>
+              <h1>Comments</h1>
+            </AmountContainer>
+          </AddContainer>
+          
         </InfoContainer>
 
       </Wrapper>
