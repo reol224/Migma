@@ -159,6 +159,7 @@ const Button = styled.button`
 
 // init cart
 const Cart = () => {
+  // useSelector 
   const cart = useSelector((state) => state.cart);
   const [stripeToken, setStripeToken] = useState(null);
   const history = useHistory();
@@ -184,6 +185,7 @@ const Cart = () => {
   }, [stripeToken, cart.total, history]);
 
   return (
+    
     <Container>
       <Navbar />
       {/* <Announcement /> */}

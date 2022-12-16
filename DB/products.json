@@ -1,0 +1,196 @@
+[{
+  "_id": {
+    "$oid": "639c0dbeb9577912b7b53104"
+  },
+  "title": "Jacket",
+  "desc": "qerq",
+  "img": "http://localhost:3000/image/2.jpeg",
+  "categories": [
+    "women"
+  ],
+  "size": [
+    "M",
+    "S",
+    "L"
+  ],
+  "color": [
+    "yellow"
+  ],
+  "price": 230,
+  "inStock": true,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1671171518051"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1671171518051"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "639c9e31293ef98a91bde2aa"
+  },
+  "title": "Pink Floyd - Faded Animals T-Shirt",
+  "desc": "Pink Floyd - Faded Animals T-Shirt",
+  "img": "http://localhost:3000/image/3.jpeg",
+  "categories": [
+    "women"
+  ],
+  "size": [
+    "M",
+    "S",
+    "L"
+  ],
+  "color": [
+    "black",
+    "gray"
+  ],
+  "price": 230,
+  "inStock": true,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1671171518051"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1671171518051"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "639cb0c7293ef98a91bde2ab"
+  },
+  "title": "Pink Floyd - Wish You Were Here T",
+  "desc": "Pink Floyd - Wish You Were Here T-Shirt",
+  "img": "http://localhost:3000/image/4.jpeg",
+  "categories": [
+    "coat"
+  ],
+  "size": [
+    "M",
+    "S",
+    "L"
+  ],
+  "color": [
+    "black",
+    "white",
+    "gray"
+  ],
+  "price": 15,
+  "inStock": true,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1671171518051"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1671171518051"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "639cb143293ef98a91bde2ac"
+  },
+  "title": "Batman Classic Tv - Show Logo T-Shirt",
+  "desc": "Batman Classic Tv - Show Logo T-Shirt",
+  "img": "http://localhost:3000/image/5.jpeg",
+  "categories": [
+    "jeans"
+  ],
+  "size": [
+    "M",
+    "S",
+    "L"
+  ],
+  "color": [
+    "black",
+    "gray",
+    "blue"
+  ],
+  "price": 19,
+  "inStock": true,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1671171518051"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1671171518051"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "639cb178293ef98a91bde2ad"
+  },
+  "title": "Yes - Fragile Cover T-Shirt",
+  "desc": "Yes - Fragile Cover T-Shirt",
+  "img": "http://localhost:3000/image/6.jpeg",
+  "categories": [
+    "jeans"
+  ],
+  "size": [
+    "M",
+    "S",
+    "L"
+  ],
+  "color": [
+    "black",
+    "gray",
+    "blue"
+  ],
+  "price": 17,
+  "inStock": true,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1671171518051"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1671171518051"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "639cb199293ef98a91bde2ae"
+  },
+  "title": "Dco - Wonder Woman Vintage T-Shirt",
+  "desc": "Dco - Wonder Woman Vintage T-Shirt",
+  "img": "http://localhost:3000/image/7.jpeg",
+  "categories": [
+    "women"
+  ],
+  "size": [
+    "M",
+    "S",
+    "L"
+  ],
+  "color": [
+    "black",
+    "gray",
+    "red"
+  ],
+  "price": 199,
+  "inStock": true,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1671171518051"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1671171518051"
+    }
+  },
+  "__v": 0
+}]
