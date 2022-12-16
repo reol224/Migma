@@ -64,6 +64,7 @@ const Register = () => {
   const [password, setPassword] = useState("");
   const [email, setEmail] = useState("");
 
+  // Register user using API
   const handleClick = (e) => {
     e.preventDefault();
     register (dispatch, { username, email, password });

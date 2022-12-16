@@ -16,7 +16,7 @@ router.post("/", async (req, res) => {
     const savedCart = await newCart.save();
     res.status(200).json(savedCart);
   } catch (err) {
-    res.status(500).json(err);
+    res.status(500);
   }
 });
 
@@ -32,7 +32,7 @@ router.put("/:id", verifyTokenAndAuthorization, async (req, res) => {
     );
     res.status(200).json(updatedCart);
   } catch (err) {
-    res.status(500).json(err);
+    res.status(500);
   }
 });
 
@@ -42,7 +42,7 @@ router.delete("/:id", verifyTokenAndAuthorization, async (req, res) => {
     await Cart.findByIdAndDelete(req.params.id);
     res.status(200).json("Cart has been deleted...");
   } catch (err) {
-    res.status(500).json(err);
+    res.status(500);
   }
 });
 
@@ -52,7 +52,7 @@ router.get("/find/:userId", verifyTokenAndAuthorization, async (req, res) => {
     const cart = await Cart.findOne({ userId: req.params.userId });
     res.status(200).json(cart);
   } catch (err) {
-    res.status(500).json(err);
+    res.status(500);
   }
 });
 
@@ -63,7 +63,7 @@ router.get("/", verifyTokenAndAdmin, async (req, res) => {
     const carts = await Cart.find();
     res.status(200).json(carts);
   } catch (err) {
-    res.status(500).json(err);
+    res.status(500);
   }
 });
 
