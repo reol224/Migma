@@ -81,7 +81,7 @@ const Navbar = () => {
           </SearchContainer>
         </Left>
         <Center>
-        <Link to="/"  style={{ color: 'inherit', textDecoration: 'inherit'}}><Logo>E-Commerce Team.</Logo></Link>
+        <Link to="/"  style={{ color: 'inherit', textDecoration: 'inherit'}}><Logo>Migma.</Logo></Link>
         </Center>
         <Right>
           <Link to="/register" style={{ color: 'inherit', textDecoration: 'inherit'}}><MenuItem>REGISTER</MenuItem></Link>  

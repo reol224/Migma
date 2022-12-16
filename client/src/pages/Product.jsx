@@ -150,7 +150,10 @@ const Product = () => {
   };
   // Add Cart when the user click Add cart
   const handleClick = () => {
-    addCart( dispatch, { ...product, quantity, color, size });
+    //addCart( dispatch, { ...product, quantity, color, size });
+    dispatch(
+      addProduct({ ...product, quantity, color, size })
+    );
   };
 
   return (
